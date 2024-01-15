@@ -4,7 +4,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "'Montserrat',sans-serif"
     font-weight: 600;
     color: rgb(203, 208, 216);
 }
@@ -12,24 +12,26 @@ body {
 /* Global Style */
 
 .itemName {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    color: azure;
+    font-family: "'Montserrat',sans-serif"
+    font-weight: 300;
+    color: black;
 }
 
 .itemType {
-    color: #fcf75e;
-    font-size: 1.2rem;
+    font-family: "'Montserrat',sans-serif"
+    color: #fc5e66;
+    font-weight: 300;
 }
 
 .itemInfo {
+    font-family: "'Montserrat',sans-serif"
     font-size: 1.4rem;
 }
 
 .title {
-    font-family: "Merriweather", serif;
+    font-family: "'Montserrat',sans-serif"
     font-weight: 700;
-    color: azure;
+    color: black; 
 }
 
 .greetingText {
@@ -48,13 +50,13 @@ body {
 .link {
     margin: .5rem;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 0.9rem;
     color: rgb(203, 208, 216);
-    --bs-nav-link-hover-color: rgb(211, 172, 43);
+    --bs-nav-link-hover-color: white;
 }
 
 .link:hover {
-    color: rgb(211, 172, 43);
+    color: grey;
 }
 
 .hamburguer {
@@ -70,9 +72,11 @@ body {
 }
 
 .artifactCard {
-    background-color: rgba(20, 31, 49, 0.7);
+    background-color: rgba(225, 236, 230, 0.849);
     padding: 1rem;
     min-height: 200px;
+    font-size: 0.6rem;
+    color: black; 
 }
 
 /* Default Style */
@@ -82,7 +86,7 @@ body {
     margin-bottom: 3rem;
     padding: 2rem;
     border-radius: 15px;
-    background-color: rgba(43, 51, 68, 1);
+    background-color: white;
 }
 
 .section {
@@ -90,7 +94,7 @@ body {
 }
 
 .navContainer {
-    background-color: rgba(20, 31, 49, 0.7);
+    background-color: rgba(27, 141, 235, 0.87);
     height: 95.39px;
 }
 
